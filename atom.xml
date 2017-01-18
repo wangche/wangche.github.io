@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>沸点</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://boiling.top/"/>
+  <updated>2017-01-18T01:48:37.234Z</updated>
+  <id>http://boiling.top/</id>
+  
+  <author>
+    <name>Ryan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://boiling.top//blog/2017/01/hello-world.html"/>
+    <id>http://boiling.top//blog/2017/01/hello-world.html</id>
+    <published>2017-01-17T00:29:27.000Z</published>
+    <updated>2017-01-18T01:48:37.234Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>我的个人博客上线了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;我的个人博客上线了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="life" scheme="http://boiling.top/categories/life/"/>
+    
+    
+      <category term="life" scheme="http://boiling.top/tags/life/"/>
+    
+      <category term="others" scheme="http://boiling.top/tags/others/"/>
+    
+  </entry>
+  
+</feed>
