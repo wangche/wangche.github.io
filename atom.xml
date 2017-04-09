@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://boiling.top/"/>
-  <updated>2017-01-18T01:48:37.234Z</updated>
+  <updated>2017-04-09T04:05:40.836Z</updated>
   <id>http://boiling.top/</id>
   
   <author>
@@ -16,18 +16,648 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://boiling.top//blog/2017/01/hello-world.html"/>
-    <id>http://boiling.top//blog/2017/01/hello-world.html</id>
-    <published>2017-01-17T00:29:27.000Z</published>
-    <updated>2017-01-18T01:48:37.234Z</updated>
+    <title>hexo出现Template render error</title>
+    <link href="http://boiling.top//blog/2017/03/hexo-template.html"/>
+    <id>http://boiling.top//blog/2017/03/hexo-template.html</id>
+    <published>2017-03-09T03:23:18.000Z</published>
+    <updated>2017-04-09T04:05:40.836Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>我的个人博客上线了。</p>
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>今天写博客时候发现hexo老是报错，后来发现是md文件写的有问题导致的。</p>
+</blockquote>
+<a id="more"></a>
+<figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line">FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html</div><div class="line">Template render error: (unknown path)</div><div class="line">  SyntaxError: Invalid or unexpected token</div><div class="line">    at Object.exports.prettifyError (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\n</span>unjucks<span class="symbol">\s</span>rc<span class="symbol">\l</span>ib.js:34:15)</div><div class="line">    at new_cls.render (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\n</span>unjucks<span class="symbol">\s</span>rc<span class="symbol">\e</span>nvironment.js:469:27)</div><div class="line">    at new_cls.renderString (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\n</span>unjucks<span class="symbol">\s</span>rc<span class="symbol">\e</span>nvironment.js:327:21)</div><div class="line">    at D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\e</span>xtend<span class="symbol">\t</span>ag.js:66:9</div><div class="line">    at Promise._execute (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\d</span>ebuggability.js:300:9)</div><div class="line">    at Promise._resolveFromExecutor (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:481:18)</div><div class="line">    at new Promise (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:77:14)</div><div class="line">    at Tag.render (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\e</span>xtend<span class="symbol">\t</span>ag.js:64:10)</div><div class="line">    at Object.tagFilter [as onRenderEnd] (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\h</span>exo<span class="symbol">\p</span>ost.js:253:16)</div><div class="line">    at D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\h</span>exo<span class="symbol">\r</span>ender.js:65:19</div><div class="line">    at tryCatcher (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\u</span>til.js:16:23)</div><div class="line">    at Promise._settlePromiseFromHandler (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:510:31)</div><div class="line">    at Promise._settlePromise (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:567:18)</div><div class="line">    at Promise._settlePromise0 (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:612:10)</div><div class="line">    at Promise._settlePromises (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:691:18)</div><div class="line">    at Async._drainQueue (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\a</span>sync.js:133:16)</div><div class="line">    at Async._drainQueues (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\a</span>sync.js:143:10)</div><div class="line">    at Immediate.Async.drainQueues (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\a</span>sync.js:17:14)</div><div class="line">    at runCallback (timers.js:649:20)</div><div class="line">    at tryOnImmediate (timers.js:622:5)</div><div class="line">    at processImmediate [as _immediateCallback] (timers.js:594:5)</div><div class="line">FATAL (unknown path)</div><div class="line">  SyntaxError: Invalid or unexpected token</div><div class="line">Template render error: (unknown path)</div><div class="line">  SyntaxError: Invalid or unexpected token</div><div class="line">    at Object.exports.prettifyError (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\n</span>unjucks<span class="symbol">\s</span>rc<span class="symbol">\l</span>ib.js:34:15)</div><div class="line">    at new_cls.render (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\n</span>unjucks<span class="symbol">\s</span>rc<span class="symbol">\e</span>nvironment.js:469:27)</div><div class="line">    at new_cls.renderString (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\n</span>unjucks<span class="symbol">\s</span>rc<span class="symbol">\e</span>nvironment.js:327:21)</div><div class="line">    at D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\e</span>xtend<span class="symbol">\t</span>ag.js:66:9</div><div class="line">    at Promise._execute (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\d</span>ebuggability.js:300:9)</div><div class="line">    at Promise._resolveFromExecutor (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:481:18)</div><div class="line">    at new Promise (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:77:14)</div><div class="line">    at Tag.render (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\e</span>xtend<span class="symbol">\t</span>ag.js:64:10)</div><div class="line">    at Object.tagFilter [as onRenderEnd] (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\h</span>exo<span class="symbol">\p</span>ost.js:253:16)</div><div class="line">    at D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\h</span>exo<span class="symbol">\l</span>ib<span class="symbol">\h</span>exo<span class="symbol">\r</span>ender.js:65:19</div><div class="line">    at tryCatcher (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\u</span>til.js:16:23)</div><div class="line">    at Promise._settlePromiseFromHandler (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:510:31)</div><div class="line">    at Promise._settlePromise (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:567:18)</div><div class="line">    at Promise._settlePromise0 (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:612:10)</div><div class="line">    at Promise._settlePromises (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\p</span>romise.js:691:18)</div><div class="line">    at Async._drainQueue (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\a</span>sync.js:133:16)</div><div class="line">    at Async._drainQueues (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\a</span>sync.js:143:10)</div><div class="line">    at Immediate.Async.drainQueues (D:<span class="symbol">\B</span>log<span class="symbol">\w</span>angche.github.io<span class="symbol">\n</span>ode_modules<span class="symbol">\b</span>luebird<span class="symbol">\j</span>s<span class="symbol">\r</span>elease<span class="symbol">\a</span>sync.js:17:14)</div><div class="line">    at runCallback (timers.js:649:20)</div><div class="line">    at tryOnImmediate (timers.js:622:5)</div><div class="line">    at processImmediate [as _immediateCallback] (timers.js:594:5)</div></pre></td></tr></table></figure>
+<p>在网上看我一段时间之后发现并没有什么解决方案，后来查看新添加的md文档发现多出来一些奇怪的东西。</p>
+<p><img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170409113248.png" alt="image"></p>
+<p>只需要将标红部分删除即可，markdown编辑器是typora，非常好用，推荐一波。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;我的个人博客上线了。&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;今天写博客时候发现hexo老是报错，后来发现是md文件写的有问题导致的。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://boiling.top/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://boiling.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis中bitmap的应用</title>
+    <link href="http://boiling.top//blog/2017/03/redis-bitmap.html"/>
+    <id>http://boiling.top//blog/2017/03/redis-bitmap.html</id>
+    <published>2017-03-08T00:47:10.000Z</published>
+    <updated>2017-04-09T03:55:45.848Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>在Redis中我们经常用到set,get等命令，细心的你有没有发现，还有几个相似的命令叫setbit,getbit，它们是用来干嘛的？</p>
+</blockquote>
+<a id="more"></a>
+<h3 id="BitMap是什么"><a href="#BitMap是什么" class="headerlink" title="BitMap是什么"></a>BitMap是什么</h3><p>就是通过一个bit位来表示某个元素对应的值或者状态,其中的key就是对应元素本身。我们知道8个bit可以组成一个Byte，所以bitmap本身会极大的节省储存空间。</p>
+<h3 id="Redis中的BitMap"><a href="#Redis中的BitMap" class="headerlink" title="Redis中的BitMap"></a>Redis中的BitMap</h3><p>Redis从2.2.0版本开始新增了<code>setbit</code>,<code>getbit</code>,<code>bitcount</code>等几个bitmap相关命令。虽然是新命令，但是并没有新增新的数据类型，因为<code>setbit</code>等命令只不过是在<code>set</code>上的扩展。</p>
+<h3 id="setbit命令介绍"><a href="#setbit命令介绍" class="headerlink" title="setbit命令介绍"></a>setbit命令介绍</h3><p>指令 <code>SETBIT key offset value</code><br>复杂度 <code>O(1)</code><br>设置或者清空key的value(字符串)在offset处的bit值(只能只0或者1)。</p>
+<h3 id="空间占用、以及第一次分配空间需要的时间"><a href="#空间占用、以及第一次分配空间需要的时间" class="headerlink" title="空间占用、以及第一次分配空间需要的时间"></a>空间占用、以及第一次分配空间需要的时间</h3><p>在一台2010MacBook Pro上，offset为2^32-1（分配512MB）需要～300ms，offset为2^30-1(分配128MB)需要～80ms，offset为2^28-1（分配32MB）需要～30ms，offset为2^26-1（分配8MB）需要8ms。&lt;来自官方文档&gt;<br>大概的空间占用计算公式是：<code>($offset/8/1024/1024)MB</code></p>
+<h3 id="使用场景一：用户签到"><a href="#使用场景一：用户签到" class="headerlink" title="使用场景一：用户签到"></a>使用场景一：用户签到</h3><p>很多网站都提供了签到功能(这里不考虑数据落地事宜)，并且需要展示最近一个月的签到情况，如果使用bitmap我们怎么做？一言不合亮代码！</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?php</span></span></div><div class="line">$redis = <span class="keyword">new</span> Redis();</div><div class="line">$redis-&gt;connect(<span class="string">'127.0.0.1'</span>);</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">//用户uid</span></div><div class="line">$uid = <span class="number">1</span>;</div><div class="line"></div><div class="line"><span class="comment">//记录有uid的key</span></div><div class="line">$cacheKey = sprintf(<span class="string">"sign_%d"</span>, $uid);</div><div class="line"></div><div class="line"><span class="comment">//开始有签到功能的日期</span></div><div class="line">$startDate = <span class="string">'2017-01-01'</span>;</div><div class="line"></div><div class="line"><span class="comment">//今天的日期</span></div><div class="line">$todayDate = <span class="string">'2017-01-21'</span>;</div><div class="line"></div><div class="line"><span class="comment">//计算offset</span></div><div class="line">$startTime = strtotime($startDate);</div><div class="line">$todayTime = strtotime($todayDate);</div><div class="line">$offset = floor(($todayTime - $startTime) / <span class="number">86400</span>);</div><div class="line"></div><div class="line"><span class="keyword">echo</span> <span class="string">"今天是第&#123;$offset&#125;天"</span> . PHP_EOL;</div><div class="line"></div><div class="line"><span class="comment">//签到</span></div><div class="line"><span class="comment">//一年一个用户会占用多少空间呢？大约365/8=45.625个字节，好小，有木有被惊呆？</span></div><div class="line">$redis-&gt;setBit($cacheKey, $offset, <span class="number">1</span>);</div><div class="line"></div><div class="line"><span class="comment">//查询签到情况</span></div><div class="line">$bitStatus = $redis-&gt;getBit($cacheKey, $offset);</div><div class="line"><span class="keyword">echo</span> <span class="number">1</span> == $bitStatus ? <span class="string">'今天已经签到啦'</span> : <span class="string">'还没有签到呢'</span>;</div><div class="line"><span class="keyword">echo</span> PHP_EOL;</div><div class="line"></div><div class="line"><span class="comment">//计算总签到次数</span></div><div class="line"><span class="keyword">echo</span> $redis-&gt;bitCount($cacheKey) . PHP_EOL;</div><div class="line"></div><div class="line"><span class="comment">/**</span></div><div class="line">* 计算某段时间内的签到次数</div><div class="line">* 很不幸啊,bitCount虽然提供了start和end参数，但是这个说的是字符串的位置，而不是对应"位"的位置</div><div class="line">* 幸运的是我们可以通过get命令将value取出来，自己解析。并且这个value不会太大，上面计算过一年一个用户只需要45个字节</div><div class="line">* 给我们的网站定一个小目标，运行30年，那么一共需要1.31KB(就问你屌不屌？)</div><div class="line">*/</div><div class="line"><span class="comment">//这是个错误的计算方式</span></div><div class="line"><span class="keyword">echo</span> $redis-&gt;bitCount($cacheKey, <span class="number">0</span>, <span class="number">20</span>) . PHP_EOL;</div></pre></td></tr></table></figure>
+<h3 id="使用场景二：统计活跃用户"><a href="#使用场景二：统计活跃用户" class="headerlink" title="使用场景二：统计活跃用户"></a>使用场景二：统计活跃用户</h3><p>使用时间作为cacheKey，然后用户ID为offset，如果当日活跃过就设置为1<br>那么我该如果计算某几天/月/年的活跃用户呢(暂且约定，统计时间内只有有一天在线就称为活跃)，有请下一个redis的命令<br>命令 <code>BITOP operation destkey key [key ...]</code><br>说明：对一个或多个保存二进制位的字符串 key 进行位元操作，并将结果保存到 destkey 上。<br>说明：BITOP 命令支持 AND 、 OR 、 NOT 、 XOR 这四种操作中的任意一种参数</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//日期对应的活跃用户</span></div><div class="line">$data = <span class="keyword">array</span>(</div><div class="line"><span class="string">'2017-01-10'</span> =&gt; <span class="keyword">array</span>(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>),</div><div class="line"><span class="string">'2017-01-11'</span> =&gt; <span class="keyword">array</span>(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>),</div><div class="line"><span class="string">'2017-01-12'</span> =&gt; <span class="keyword">array</span>(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>),</div><div class="line"><span class="string">'2017-01-13'</span> =&gt; <span class="keyword">array</span>(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>),</div><div class="line"><span class="string">'2017-01-14'</span> =&gt; <span class="keyword">array</span>(<span class="number">1</span>,<span class="number">2</span>)</div><div class="line">);</div><div class="line"></div><div class="line"><span class="comment">//批量设置活跃状态</span></div><div class="line"><span class="keyword">foreach</span>($data <span class="keyword">as</span> $date=&gt;$uids) &#123;</div><div class="line">$cacheKey = sprintf(<span class="string">"stat_%s"</span>, $date);</div><div class="line"><span class="keyword">foreach</span>($uids <span class="keyword">as</span> $uid) &#123;</div><div class="line">$redis-&gt;setBit($cacheKey, $uid, <span class="number">1</span>);</div><div class="line">&#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">$redis-&gt;bitOp(<span class="string">'AND'</span>, <span class="string">'stat'</span>, <span class="string">'stat_2017-01-10'</span>, <span class="string">'stat_2017-01-11'</span>, <span class="string">'stat_2017-01-12'</span>) . PHP_EOL;</div><div class="line"><span class="comment">//总活跃用户：6</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"总活跃用户："</span> . $redis-&gt;bitCount(<span class="string">'stat'</span>) . PHP_EOL;</div><div class="line"></div><div class="line">$redis-&gt;bitOp(<span class="string">'AND'</span>, <span class="string">'stat1'</span>, <span class="string">'stat_2017-01-10'</span>, <span class="string">'stat_2017-01-11'</span>, <span class="string">'stat_2017-01-14'</span>) . PHP_EOL;</div><div class="line"><span class="comment">//总活跃用户：2</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"总活跃用户："</span> . $redis-&gt;bitCount(<span class="string">'stat1'</span>) . PHP_EOL;</div><div class="line"></div><div class="line">$redis-&gt;bitOp(<span class="string">'AND'</span>, <span class="string">'stat2'</span>, <span class="string">'stat_2017-01-10'</span>, <span class="string">'stat_2017-01-11'</span>) . PHP_EOL;</div><div class="line"><span class="comment">//总活跃用户：8</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"总活跃用户："</span> . $redis-&gt;bitCount(<span class="string">'stat2'</span>) . PHP_EOL;</div></pre></td></tr></table></figure>
+<p>假设当前站点有5000W用户，那么一天的数据大约为50000000/8/1024/1024=6MB</p>
+<h3 id="使用场景三：用户在线状态"><a href="#使用场景三：用户在线状态" class="headerlink" title="使用场景三：用户在线状态"></a>使用场景三：用户在线状态</h3><p>前段时间开发一个项目，对方给我提供了一个查询当前用户是否在线的接口。不了解对方是怎么做的，自己考虑了一下，使用bitmap是一个节约空间效率又高的一种方法，只需要一个key，然后用户ID为offset，如果在线就设置为1，不在线就设置为0，和上面的场景一样，5000W用户只需要6MB的空间。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//批量设置在线状态</span></div><div class="line">$uids = range(<span class="number">1</span>, <span class="number">500000</span>);</div><div class="line"><span class="keyword">foreach</span>($uids <span class="keyword">as</span> $uid) &#123;</div><div class="line">$redis-&gt;setBit(<span class="string">'online'</span>, $uid, $uid % <span class="number">2</span>);</div><div class="line">&#125;</div><div class="line"><span class="comment">//一个一个获取状态</span></div><div class="line">$uids = range(<span class="number">1</span>, <span class="number">500000</span>);</div><div class="line">$startTime = microtime(<span class="keyword">true</span>);</div><div class="line"><span class="keyword">foreach</span>($uids <span class="keyword">as</span> $uid) &#123;</div><div class="line"><span class="keyword">echo</span> $redis-&gt;getBit(<span class="string">'online'</span>, $uid) . PHP_EOL;</div><div class="line">&#125;</div><div class="line">$endTime = microtime(<span class="keyword">true</span>);</div><div class="line"><span class="comment">//在我的电脑上，获取50W个用户的状态需要25秒</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"total:"</span> . ($endTime - $startTime) . <span class="string">"s"</span>;</div><div class="line"></div><div class="line"><span class="comment">/**</span></div><div class="line">* 对于批量的获取，上面是一种效率低的办法，实际可以通过get获取到value，然后自己计算</div><div class="line">* 具体计算方法改天再写吧，之前写的代码找不见了。。。</div><div class="line">*/</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;在Redis中我们经常用到set,get等命令，细心的你有没有发现，还有几个相似的命令叫setbit,getbit，它们是用来干嘛的？&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://boiling.top/categories/php/"/>
+    
+    
+      <category term="redis" scheme="http://boiling.top/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《潜伏之赤途》后感</title>
+    <link href="http://boiling.top//blog/2017/01/chitu.html"/>
+    <id>http://boiling.top//blog/2017/01/chitu.html</id>
+    <published>2017-01-18T03:15:05.000Z</published>
+    <updated>2017-04-07T12:06:25.371Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=450577447&auto=0&height=66"></iframe>
+
+<p>上一款让我如此震撼的游戏是Playdead的《inside》</p>
+</blockquote>
+<p>刚刚一周目完了《潜伏之赤途》这款被称为国产神作的AVG游戏，游戏如同一曲悲歌，让人震撼又沉思。</p>
+<a id="more"></a>
+<p>这款游戏与去年的热播剧伪装者颇有相似，主角的人物背景也都是五面间谍“袁殊”，电视剧因为和谐社会的需要进行了修饰，而这款游戏从发行到被封杀竟然存活了一年多简直是奇迹。</p>
+<p>第一人称的你是叫方别，是一名中共地下党，为了潜伏下去，在游戏中你要面临大量沉重的，非生即死的选择，各种纠葛冲突编织成一个巨大的网络，而你需要戴着面具，尔虞我诈，在这险象环生的局面下活下去，为了活下去你可能要杀掉自己的恩师，杀掉爱慕你的学妹，逼疯青梅竹马的姑娘，以及一些善良的人。当然，你也会收获一些意外的爱情，游戏中的张晓梦敢爱敢恨，是我最喜欢的角色。</p>
+<p><strong>他因谎言实现人生价值，亦因谎言落入深渊；前半生靠自己的谎言救回了别人，后半生靠别人的谎言救回了自己。所有理想主义者和功利主义者都应该试一下这个游戏，以第一人称体验一下个体在滚滚历史洪流中如同浮萍般的命运。这个游戏应当在国产AVG游戏史上留下浓墨重彩的一笔。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=450577447&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;上一款让我如此震撼的游戏是Playdead的《inside》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;刚刚一周目完了《潜伏之赤途》这款被称为国产神作的AVG游戏，游戏如同一曲悲歌，让人震撼又沉思。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="game" scheme="http://boiling.top/categories/game/"/>
+    
+    
+      <category term="赤途" scheme="http://boiling.top/tags/%E8%B5%A4%E9%80%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tp5中使用redis的一些问题</title>
+    <link href="http://boiling.top//blog/2016/11/redis-tp5.html"/>
+    <id>http://boiling.top//blog/2016/11/redis-tp5.html</id>
+    <published>2016-11-08T12:54:42.000Z</published>
+    <updated>2017-04-09T03:54:54.601Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>个人一直在使用tp3.2，并没有用过tp5，这个问题也是朋友碰到的一个问题。</p>
+</blockquote>
+<a id="more"></a>
+<p>tp5框架内的redis缓存驱动包含的redis驱动特性比较少，比如说就不能使用lpush来做队列，当然这个问题可以通过在redis驱动里扩展方法来解决。不过，还是mark一下，如果以后用tp5注意这一点。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;个人一直在使用tp3.2，并没有用过tp5，这个问题也是朋友碰到的一个问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="redis" scheme="http://boiling.top/categories/redis/"/>
+    
+    
+      <category term="redis" scheme="http://boiling.top/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用redis来实现身份验证</title>
+    <link href="http://boiling.top//blog/2016/11/redis-auth.html"/>
+    <id>http://boiling.top//blog/2016/11/redis-auth.html</id>
+    <published>2016-11-08T12:42:45.000Z</published>
+    <updated>2017-04-09T03:54:26.037Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>session 经常出现丢失的情况，所以目前用redis来实现身份的验证是非常流行的一种做法。</p>
+</blockquote>
+<a id="more"></a>
+<p>具体方法如下：前端把account和password，提交到服务端的登录api，服务端验证正确后，生成一个token，并把token和userId，存在redis缓存里，然后把token返回给前端。前端每次的请求头中带token，这样就是简单的token 机制实现身份验证。</p>
+<p>不过这样还有一个问题，就是token的有效期问题，在这里可以使用这样一个做法，只要用户使用了任何一个接口，token的有效期顺延一天，这样就不会出现token有效期到了，跳转到登陆界面重新获取token，如果用户超过token有效期的话，就需要重新登录获取新的token。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;session 经常出现丢失的情况，所以目前用redis来实现身份的验证是非常流行的一种做法。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="redis" scheme="http://boiling.top/categories/redis/"/>
+    
+    
+      <category term="redis" scheme="http://boiling.top/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跨域的一些问题总结</title>
+    <link href="http://boiling.top//blog/2016/11/ajax-kuayu.html"/>
+    <id>http://boiling.top//blog/2016/11/ajax-kuayu.html</id>
+    <published>2016-11-07T12:25:20.000Z</published>
+    <updated>2017-04-09T03:51:47.752Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>以下总结是在后台前后端分离遇到的。</p>
+<a id="more"></a>
+<p>蓝景商城接口同时支持可以用JSONP 和 JSON 的形式调用。</p>
+<p>AJAX调用接口的时候，如果当前页面的url和接口不在一个同一个主域下，或者不在同一个端口下，就会出现跨域请求的问题。</p>
+<p>不在同域下，常用的一种做法是，用AJAX的 JSONP 形式来请求接口，如果对于纯数据的JSON交换，是不会产生问题的。</p>
+<p>但是，如果是文件上传，那么，就会有些不一样了，因为 JSONP 不支持文件上传。这时候，只能调用JSON接口，所以，一种有效的做法是设置 access-control-allow-origin = “*”。</p>
+<p>正常情况下，如果设置access-control-allow-origin＝”*” 之后，应该就什么跨域问题都不存在了。</p>
+<p>确实，在其他组的项目中，设置上面的那个选项后，就没必要关心跨域造成的问题了。其实，造成问题的原因是，后端的框架在所有请求成功到后端的逻辑代码之前，会先进行拦截器这一层。</p>
+<p>简要说下拦截器，主要就是判断用户是否登陆的，需要用到一个在浏览器设置过的cookie值来比对。</p>
+<p>那么，问题的产生就是，正常的AJAX文件上传的请求时不会带上cookie的，如果一定要带上cookie，可以设置</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line"><span class="symbol">    xhrFields:</span> &#123;</div><div class="line"><span class="symbol">           withCredentials:</span> true</div><div class="line">      &#125;</div><div class="line">    <span class="comment">//,</span></div><div class="line">    <span class="comment">//...</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p>这样设置之后，是会带上cookie的，这时，服务端的access-control-allow-origin 就不能设置*了，范围太大了，浏览器不允许，这时候，设置对应的入口文件所在的域就行了,这样就只允许那个域来访问了。</p>
+<p>－－－－－分隔符</p>
+<p>后来，考虑到将入口文件放在前端资源服务器上的url给用户用，会感到很奇怪，于是，就将Angular写的项目的入口文件放在后端，成了.vm 文件。</p>
+<p>一般这个文件改动几乎不大，因为Angular是加载模版的，模板文件依旧在前端资源服务器上，这里注意，所以的资源路径都要写成绝对路径。这时，后端访问前端也造成来跨域问题，但是这里只要在前端的ads或bds 设置access-control-allow-origin ＝ “*” 就可以了。</p>
+<p>经过cdn的 assets.souche.com 依旧不行，于是，模板文件的域写成f2e-assets.souche.com，其他js、css可以用asset.souche.com.</p>
+<p>资源的服务器地址可以写在入口文件中的全局js变量里，用大写。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="actionscript"></span></div><div class="line"></div><div class="line">    <span class="keyword">var</span> TEMPLATE_URI = <span class="string">'http://$&#123;templateServer&#125;/dafengche/order'</span>;</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>之后的项目，应该都是采用这样的方式，入口放后端，其他的资源在前端。之前还存在的一个问题是，后端拦截器对未登录的请求直接重定向到了单点登录页面，其实对于JSON请求，应该返回一个JSON数据，里面的success=false, msg=”未登录，请刷新” 这样才比较合理，当然，对正常对浏览器http请求，则可以用重定向(这个忘了后端有没有写了，这样的话，一旦用户刷新了，因为入口文件在后端，会先被拦截器拦截，跳到了登录页，不会有什么问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;以下总结是在后台前后端分离遇到的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://boiling.top/categories/php/"/>
+    
+    
+      <category term="ajax" scheme="http://boiling.top/tags/ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>thinkphp之支付宝</title>
+    <link href="http://boiling.top//blog/2016/09/alipay.html"/>
+    <id>http://boiling.top//blog/2016/09/alipay.html</id>
+    <published>2016-09-20T11:41:38.000Z</published>
+    <updated>2017-04-09T03:52:06.928Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>最近一直在做支付模块，简直是支付小王子，必须记录一下填坑历程</p>
+</blockquote>
+<p>作为天朝第一的支付工具，也是我们开发必须的。<br>支付宝的支付分两种，一种pc,一种移动。<br><a id="more"></a></p>
+<ul>
+<li>PC</li>
+</ul>
+<p>PC端的支付还是相对简单的，整个支付过程分几步，下载阿里的支付代码包。</p>
+<ol>
+<li>首先配置一下账号密码，在alipay.config.php里填写对应内容</li>
+</ol>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="regexp">//</span>合作身份者id，以<span class="number">2088</span>开头的<span class="number">16</span>位纯数字</div><div class="line"><span class="variable">$alipay_config</span>[<span class="string">'partner'</span>]		= <span class="string">''</span>;</div><div class="line"></div><div class="line"><span class="regexp">//</span>收款支付宝账号</div><div class="line"><span class="variable">$alipay_config</span>[<span class="string">'seller_email'</span>]	= <span class="string">''</span>;</div><div class="line"></div><div class="line"><span class="regexp">//</span>安全检验码，以数字和字母组成的<span class="number">32</span>位字符</div><div class="line"><span class="variable">$alipay_config</span>[<span class="string">'key'</span>]			= <span class="string">''</span>;</div></pre></td></tr></table></figure>
+<ol>
+<li>配置订单相关信息，以及异步响应相关信息</li>
+</ol>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">require_once</span>(<span class="string">"alipay.config.php"</span>);</div><div class="line"><span class="keyword">require_once</span>(<span class="string">"lib/alipay_submit.class.php"</span>);</div><div class="line"></div><div class="line"><span class="comment">/**************************请求参数**************************/</span></div><div class="line"></div><div class="line">        <span class="comment">//支付类型</span></div><div class="line">        $payment_type = <span class="string">"1"</span>;</div><div class="line">        <span class="comment">//必填，不能修改</span></div><div class="line">        <span class="comment">//服务器异步通知页面路径</span></div><div class="line">        $notify_url = <span class="string">"http://www.jxshop.com/index.php/Home/Order/receive"</span>;</div><div class="line">        <span class="comment">//需http://格式的完整路径，不能加?id=123这类自定义参数</span></div><div class="line"></div><div class="line">        <span class="comment">//页面跳转同步通知页面路径</span></div><div class="line">        $return_url = <span class="string">""</span>;<span class="comment">//填写异步响应请求地址</span></div><div class="line">        <span class="comment">//需http://格式的完整路径，不能加?id=123这类自定义参数，不能写成http://localhost/</span></div><div class="line"></div><div class="line">        <span class="comment">//商户订单号</span></div><div class="line">        $out_trade_no = $orderId;</div><div class="line">        <span class="comment">//商户网站订单系统中唯一订单号，必填</span></div><div class="line"></div><div class="line">        <span class="comment">//订单名称</span></div><div class="line">        $subject = <span class="string">'我的定单'</span>;</div><div class="line">        <span class="comment">//必填</span></div><div class="line">        </div><div class="line">        $model = D(<span class="string">'Order'</span>);</div><div class="line">        $tp = $model-&gt;field(<span class="string">'total_price'</span>)-&gt;find($orderId);</div><div class="line"></div><div class="line">        <span class="comment">//付款金额</span></div><div class="line">        $total_fee = $tp[<span class="string">'total_price'</span>];</div><div class="line">        <span class="comment">//必填</span></div><div class="line"></div><div class="line">        <span class="comment">//订单描述</span></div><div class="line"></div><div class="line">        $body = <span class="string">'我的描述'</span>;</div><div class="line">        <span class="comment">//商品展示地址</span></div><div class="line">        $show_url = <span class="string">'http://www.jxshop.com/index.php/Home/Order/view/id/'</span>.$orderId;</div><div class="line">        <span class="comment">//需以http://开头的完整路径，例如：http://www.商户网址.com/myorder.html</span></div><div class="line"></div><div class="line">        <span class="comment">//防钓鱼时间戳</span></div><div class="line">        $anti_phishing_key = <span class="string">""</span>;</div><div class="line">        <span class="comment">//若要使用请调用类文件submit中的query_timestamp函数</span></div><div class="line"></div><div class="line">        <span class="comment">//客户端的IP地址</span></div><div class="line">        $exter_invoke_ip = <span class="string">""</span>;</div><div class="line">        <span class="comment">//非局域网的外网IP地址，如：221.0.0.1</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">/************************************************************/</span></div><div class="line"></div><div class="line"><span class="comment">//构造要请求的参数数组，无需改动</span></div><div class="line">$parameter = <span class="keyword">array</span>(</div><div class="line">		<span class="string">"service"</span> =&gt; <span class="string">"create_direct_pay_by_user"</span>,</div><div class="line">		<span class="string">"partner"</span> =&gt; trim($alipay_config[<span class="string">'partner'</span>]),</div><div class="line">		<span class="string">"seller_email"</span> =&gt; trim($alipay_config[<span class="string">'seller_email'</span>]),</div><div class="line">		<span class="string">"payment_type"</span>	=&gt; $payment_type,</div><div class="line">		<span class="string">"notify_url"</span>	=&gt; $notify_url,</div><div class="line">		<span class="string">"return_url"</span>	=&gt; $return_url,</div><div class="line">		<span class="string">"out_trade_no"</span>	=&gt; $out_trade_no,</div><div class="line">		<span class="string">"subject"</span>	=&gt; $subject,</div><div class="line">		<span class="string">"total_fee"</span>	=&gt; $total_fee,</div><div class="line">		<span class="string">"body"</span>	=&gt; $body,</div><div class="line">		<span class="string">"show_url"</span>	=&gt; $show_url,</div><div class="line">		<span class="string">"anti_phishing_key"</span>	=&gt; $anti_phishing_key,</div><div class="line">		<span class="string">"exter_invoke_ip"</span>	=&gt; $exter_invoke_ip,</div><div class="line">		<span class="string">"_input_charset"</span>	=&gt; trim(strtolower($alipay_config[<span class="string">'input_charset'</span>]))</div><div class="line">);</div><div class="line"></div><div class="line"><span class="comment">//建立请求</span></div><div class="line">$alipaySubmit = <span class="keyword">new</span> AlipaySubmit($alipay_config);</div><div class="line"><span class="keyword">return</span> $alipaySubmit-&gt;buildRequestForm($parameter,<span class="string">"get"</span>, <span class="string">'去支付宝支付'</span>);</div></pre></td></tr></table></figure>
+<ol>
+<li>可以在下订单之后添加对应的支付button，然后可以根据上一项填写的异步请求地址在控制器中添加对应的方法来处理支付宝服务器发送过来的状态，然后根据发送过来的状态来改变我们数据库中订单的状态，支付函数这里就不po了。</li>
+</ol>
+<ul>
+<li>移动端<br> 移动端跟pc端大同小异，只不过移动端需要开发人员整合的；php后端只接收支付结果通知即可。</li>
+</ul>
+<hr>
+<p>这不是关键，后来发现俊哥已经写好了非常好的类包，瞬间感觉自己太年轻了下面是俊哥的解决方案。<br>示例项目：<a href="https://github.com/baijunyao/thinkphp-bjyadmin" target="_blank" rel="external">https://github.com/baijunyao/thinkphp-bjyadmin</a></p>
+<ol>
+<li>导入sdk，/ThinkPHP/Library/Vendor/Alipay，<br>需要说明的是；这个sdk原本是担保支付的；<br>后来被改成即时到账的；<br>所以；如果如果按我这篇文章整合；就需要下载示例项目；<br>然后拷贝Alipay了；</li>
+<li>配置项<br>/Application/Common/Conf/config.php</li>
+</ol>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="string">'ALIPAY_CONFIG'</span>          =&gt; <span class="keyword">array</span>(</div><div class="line">      <span class="string">'partner'</span>            =&gt; <span class="string">''</span>, <span class="comment">// partner 从支付宝商户版个人中心获取</span></div><div class="line">      <span class="string">'seller_email'</span>       =&gt; <span class="string">''</span>, <span class="comment">// email 从支付宝商户版个人中心获取</span></div><div class="line">      <span class="string">'key'</span>                =&gt; <span class="string">''</span>, <span class="comment">// key 从支付宝商户版个人中心获取</span></div><div class="line">      <span class="string">'sign_type'</span>          =&gt; strtoupper(trim(<span class="string">'MD5'</span>)), <span class="comment">// 可选md5  和 RSA </span></div><div class="line">      <span class="string">'input_charset'</span>      =&gt; <span class="string">'utf-8'</span>, <span class="comment">// 编码 (固定值不用改)</span></div><div class="line">      <span class="string">'transport'</span>          =&gt; <span class="string">'http'</span>, <span class="comment">// 协议  (固定值不用改)</span></div><div class="line">      <span class="string">'cacert'</span>             =&gt; VENDOR_PATH.<span class="string">'Alipay/cacert.pem'</span>,  <span class="comment">// cacert.pem存放的位置 (固定值不用改)</span></div><div class="line">      <span class="string">'notify_url'</span>         =&gt; <span class="string">'http://baijunyao.com/Api/Alipay/alipay_notify'</span>, <span class="comment">// 异步接收支付状态通知的链接</span></div><div class="line">      <span class="string">'return_url'</span>         =&gt; <span class="string">'http://baijunyao.com/Api/Alipay/alipay_return'</span>, <span class="comment">// 页面跳转 同步通知 页面路径 支付宝处理完请求后,当前页面自 动跳转到商户网站里指定页面的 http 路径。 (扫码支付专用)</span></div><div class="line">      <span class="string">'show_url'</span>           =&gt; <span class="string">'http://baijunyao.com/User/Order/index'</span>, <span class="comment">// 商品展示网址,收银台页面上,商品展示的超链接。 (扫码支付专用)</span></div><div class="line">      <span class="string">'private_key_path'</span>   =&gt; <span class="string">''</span>, <span class="comment">//移动端生成的私有key文件存放于服务器的 绝对路径 如果为MD5加密方式；此项可为空 (移动支付专用)</span></div><div class="line">      <span class="string">'public_key_path'</span>    =&gt; <span class="string">''</span>, <span class="comment">//移动端生成的公共key文件存放于服务器的 绝对路径 如果为MD5加密方式；此项可为空 (移动支付专用)</span></div><div class="line">      ),</div></pre></td></tr></table></figure>
+<ol>
+<li>支付函数</li>
+</ol>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * 跳向支付宝付款</div><div class="line"> * <span class="doctag">@param</span>  array $order 订单数据 必须包含 out_trade_no(订单号)、price(订单金额)、subject(商品名称标题)</div><div class="line"> */</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">alipay</span><span class="params">($order)</span></span>&#123;</div><div class="line">    vendor(<span class="string">'Alipay.AlipaySubmit'</span>,<span class="string">''</span>,<span class="string">'.class.php'</span>);</div><div class="line">    <span class="comment">// 获取配置</span></div><div class="line">    $config=C(<span class="string">'ALIPAY_CONFIG'</span>);</div><div class="line">    $data=<span class="keyword">array</span>(</div><div class="line">        <span class="string">"_input_charset"</span> =&gt; $config[<span class="string">'input_charset'</span>], <span class="comment">// 编码格式</span></div><div class="line">        <span class="string">"logistics_fee"</span> =&gt; <span class="string">"0.00"</span>, <span class="comment">// 物流费用</span></div><div class="line">        <span class="string">"logistics_payment"</span> =&gt; <span class="string">"SELLER_PAY"</span>, <span class="comment">// 物流支付方式SELLER_PAY（卖家承担运费）、BUYER_PAY（买家承担运费）</span></div><div class="line">        <span class="string">"logistics_type"</span> =&gt; <span class="string">"EXPRESS"</span>, <span class="comment">// 物流类型EXPRESS（快递）、POST（平邮）、EMS（EMS）</span></div><div class="line">        <span class="string">"notify_url"</span> =&gt; $config[<span class="string">'notify_url'</span>], <span class="comment">// 异步接收支付状态通知的链接</span></div><div class="line">        <span class="string">"out_trade_no"</span> =&gt; $order[<span class="string">'out_trade_no'</span>], <span class="comment">// 订单号</span></div><div class="line">        <span class="string">"partner"</span> =&gt; $config[<span class="string">'partner'</span>], <span class="comment">// partner 从支付宝商户版个人中心获取</span></div><div class="line">        <span class="string">"payment_type"</span> =&gt; <span class="string">"1"</span>, <span class="comment">// 支付类型对应请求时的 payment_type 参数,原样返回。固定设置为1即可</span></div><div class="line">        <span class="string">"price"</span> =&gt; $order[<span class="string">'price'</span>], <span class="comment">// 订单价格单位为元</span></div><div class="line">        <span class="comment">// "price" =&gt; 0.01, // // 调价用于测试</span></div><div class="line">        <span class="string">"quantity"</span> =&gt; <span class="string">"1"</span>, <span class="comment">// price、quantity 能代替 total_fee。 即存在 total_fee,就不能存在 price 和 quantity;存在 price、quantity, 就不能存在 total_fee。 （没绕明白；好吧；那无视这个参数即可）</span></div><div class="line">        <span class="string">"receive_address"</span> =&gt; <span class="string">'1'</span>, <span class="comment">// 收货人地址 即时到账方式无视此参数即可</span></div><div class="line">        <span class="string">"receive_mobile"</span> =&gt; <span class="string">'1'</span>, <span class="comment">// 收货人手机号码 即时到账方式无视即可</span></div><div class="line">        <span class="string">"receive_name"</span> =&gt; <span class="string">'1'</span>, <span class="comment">// 收货人姓名 即时到账方式无视即可</span></div><div class="line">        <span class="string">"receive_zip"</span> =&gt; <span class="string">'1'</span>, <span class="comment">// 收货人邮编 即时到账方式无视即可</span></div><div class="line">        <span class="string">"return_url"</span> =&gt; $config[<span class="string">'return_url'</span>], <span class="comment">// 页面跳转 同步通知 页面路径 支付宝处理完请求后,当前页面自 动跳转到商户网站里指定页面的 http 路径。</span></div><div class="line">        <span class="string">"seller_email"</span> =&gt; $config[<span class="string">'seller_email'</span>], <span class="comment">// email 从支付宝商户版个人中心获取</span></div><div class="line">        <span class="string">"service"</span> =&gt; <span class="string">"create_direct_pay_by_user"</span>, <span class="comment">// 接口名称 固定设置为create_direct_pay_by_user</span></div><div class="line">        <span class="string">"show_url"</span> =&gt; $config[<span class="string">'show_url'</span>], <span class="comment">// 商品展示网址,收银台页面上,商品展示的超链接。</span></div><div class="line">        <span class="string">"subject"</span> =&gt; $order[<span class="string">'subject'</span>] <span class="comment">// 商品名称商品的标题/交易标题/订单标 题/订单关键字等</span></div><div class="line">    );</div><div class="line">    $alipay=<span class="keyword">new</span> \AlipaySubmit($config);</div><div class="line">    $new=$alipay-&gt;buildRequestPara($data);</div><div class="line">    $go_pay=$alipay-&gt;buildRequestForm($new, <span class="string">'get'</span>,<span class="string">'支付'</span>);</div><div class="line">    <span class="keyword">echo</span> $go_pay;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>同样；看注释就行了；<br>调用方法；</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$data=<span class="keyword">array</span>(</div><div class="line">    <span class="string">'out_trade_no'</span>=&gt;time(),</div><div class="line">    <span class="string">'price'</span>=&gt;<span class="number">1</span>,</div><div class="line">    <span class="string">'subject'</span>=&gt;<span class="string">'测试'</span></div><div class="line">    );</div><div class="line">alipay($data);</div></pre></td></tr></table></figure>
+<p>到这已经跳到支付宝付款页面了；</p>
+<ol>
+<li>同步接收通知<br>/Application/Api/Controller/AlipayController.class.php</li>
+</ol>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">* return_url接收页面</div><div class="line">    */</div><div class="line">   <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">alipay_return</span><span class="params">()</span></span>&#123;</div><div class="line">       <span class="comment">// 引入支付宝</span></div><div class="line">       vendor(<span class="string">'Alipay.AlipayNotify'</span>,<span class="string">''</span>,<span class="string">'.class.php'</span>);</div><div class="line">       $config=$config=C(<span class="string">'ALIPAY_CONFIG'</span>);</div><div class="line">       $notify=<span class="keyword">new</span> \AlipayNotify($config);</div><div class="line">       <span class="comment">// 验证支付数据</span></div><div class="line">       $status=$notify-&gt;verifyReturn();</div><div class="line">       <span class="keyword">if</span>($status)&#123;</div><div class="line">           <span class="comment">// 下面写验证通过的逻辑 比如说更改订单状态等等 $_GET['out_trade_no'] 为订单号；</span></div><div class="line"></div><div class="line">           <span class="keyword">$this</span>-&gt;success(<span class="string">'支付成功'</span>,U(<span class="string">'User/Order/index'</span>));</div><div class="line">       &#125;<span class="keyword">else</span>&#123;</div><div class="line">           <span class="keyword">$this</span>-&gt;success(<span class="string">'支付失败'</span>,U(<span class="string">'User/Order/index'</span>));</div><div class="line">       &#125;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<ol>
+<li>异步接收通知/Application/Api/Controller/AlipayController.class.php</li>
+</ol>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line">    * notify_url接收页面</div><div class="line">    */</div><div class="line">   <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">alipay_notify</span><span class="params">()</span></span>&#123;</div><div class="line">       <span class="comment">// 引入支付宝</span></div><div class="line">       vendor(<span class="string">'Alipay.AlipayNotify'</span>,<span class="string">''</span>,<span class="string">'.class.php'</span>);</div><div class="line">       $config=$config=C(<span class="string">'ALIPAY_CONFIG'</span>);</div><div class="line">       $alipayNotify = <span class="keyword">new</span> \AlipayNotify($config);</div><div class="line">       <span class="comment">// 验证支付数据</span></div><div class="line">       $verify_result = $alipayNotify-&gt;verifyNotify();</div><div class="line">       <span class="keyword">if</span>($verify_result) &#123;</div><div class="line">           <span class="keyword">echo</span> <span class="string">"success"</span>;</div><div class="line">           <span class="comment">// 下面写验证通过的逻辑 比如说更改订单状态等等 $_POST['out_trade_no'] 为订单号；</span></div><div class="line"></div><div class="line">                        </div><div class="line">       &#125;<span class="keyword">else</span> &#123;</div><div class="line">           <span class="keyword">echo</span> <span class="string">"fail"</span>;</div><div class="line">       &#125;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<p>正常流程中；第四步就已经结束了；<br>但是呢；很多时候因为各种原因；比如说用户支付成功后还没等支付宝跳转就关掉了窗口；<br>等等原因；在支付成功后并没有成功跳转回return_url指定的url<br>这时候就是notify_url这个发挥作用的时候了；<br>支付宝会按照一定的频率往我们的服务器发送异步post的支付结果通知；<br>我们把处理支付成功后的业务逻辑在这也放一份就可以了；</p>
+<p>关于不知道怎么查看异步发过来的数据的补充</p>
+<p>好多童鞋在问支付后；不知道怎么查看接收到的支付状态通知；<br>这里做个补充；首先；我们的服务器必须是外网可以正常访问到的；<br>必须注意不能有 登录或者权限之类的拦截；<br>另外补充一个简单的查看收到的内容的方法用于测试；<br>/Application/Api/Controller/AlipayController.class.php</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line">    * notify_url接收页面</div><div class="line">    */</div><div class="line">   <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">alipay_notify</span><span class="params">()</span></span>&#123;</div><div class="line">       <span class="comment">// 下面的file_put_contents是用来简单查看异步发过来的数据 测试完可以删除；</span></div><div class="line">       file_put_contents(<span class="string">'./notify.text'</span>, json_encode($_POST));</div><div class="line">       <span class="comment">// 引入支付宝</span></div><div class="line">       vendor(<span class="string">'Alipay.AlipayNotify'</span>,<span class="string">''</span>,<span class="string">'.class.php'</span>);</div><div class="line">       $config=$config=C(<span class="string">'ALIPAY_CONFIG'</span>);</div><div class="line">       $alipayNotify = <span class="keyword">new</span> \AlipayNotify($config);</div><div class="line">       <span class="comment">// 验证支付数据</span></div><div class="line">       $verify_result = $alipayNotify-&gt;verifyNotify();</div><div class="line">       <span class="keyword">if</span>($verify_result) &#123;</div><div class="line">           <span class="keyword">echo</span> <span class="string">"success"</span>;</div><div class="line">           <span class="comment">// 下面写验证通过的逻辑 比如说更改订单状态等等 $_POST['out_trade_no'] 为订单号；</span></div><div class="line"></div><div class="line">                        </div><div class="line">       &#125;<span class="keyword">else</span> &#123;</div><div class="line">           <span class="keyword">echo</span> <span class="string">"fail"</span>;</div><div class="line">       &#125;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<p>关于可能出现ILLEGAL_SIGN错误的解放方案</p>
+<p>示例项目中的 function.php 中顶部是有设置编码的：<br><figure class="highlight abnf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">header(<span class="string">"Content-type:text/html;charset=utf-8"</span>)<span class="comment">;</span></div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;最近一直在做支付模块，简直是支付小王子，必须记录一下填坑历程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作为天朝第一的支付工具，也是我们开发必须的。&lt;br&gt;支付宝的支付分两种，一种pc,一种移动。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://boiling.top/categories/php/"/>
+    
+    
+      <category term="tp" scheme="http://boiling.top/tags/tp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fastcgi与php-fpm浅谈</title>
+    <link href="http://boiling.top//blog/2016/09/php-fpm.html"/>
+    <id>http://boiling.top//blog/2016/09/php-fpm.html</id>
+    <published>2016-09-09T00:11:06.000Z</published>
+    <updated>2017-04-09T03:57:40.334Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>fastcgi与php-fpm的关系一直挺迷惑的，今天在segmentfault上看到了不错的解释。</p>
+</blockquote>
+<a id="more"></a>
+<p>刚开始对这个问题我也挺纠结的，看了《HTTP权威指南》后，感觉清晰了不少。</p>
+<p>首先，CGI是干嘛的？CGI是为了保证web server传递过来的数据是标准格式的，方便CGI程序的编写者。</p>
+<blockquote>
+<p>web server（比如说nginx）只是内容的分发者。比如，如果请求<code>/index.html</code>，那么web server会去文件系统中找到这个文件，发送给浏览器，这里分发的是静态数据。好了，如果现在请求的是<code>/index.php</code>，根据配置文件，nginx知道这个不是静态文件，需要去找PHP解析器来处理，那么他会把这个请求简单处理后交给PHP解析器。Nginx会传哪些数据给PHP解析器呢？url要有吧，查询字符串也得有吧，POST数据也要有，HTTP header不能少吧，好的，CGI就是规定要传哪些数据、以什么样的格式传递给后方处理这个请求的协议。仔细想想，你在PHP代码中使用的用户从哪里来的。</p>
+<p>当web server收到<code>/index.php</code>这个请求后，会启动对应的CGI程序，这里就是PHP的解析器。接下来PHP解析器会解析php.ini文件，初始化执行环境，然后处理请求，再以规定CGI规定的格式返回处理后的结果，退出进程。web server再把结果返回给浏览器。</p>
+</blockquote>
+<p>好了，CGI是个协议，跟进程什么的没关系。那fastcgi又是什么呢？Fastcgi是用来提高CGI程序性能的。</p>
+<blockquote>
+<p>提高性能，那么CGI程序的性能问题在哪呢？”PHP解析器会解析php.ini文件，初始化执行环境”，就是这里了。标准的CGI对每个请求都会执行这些步骤（不闲累啊！启动进程很累的说！），所以处理每个时间的时间会比较长。这明显不合理嘛！那么Fastcgi是怎么做的呢？首先，Fastcgi会先启一个master，解析配置文件，初始化执行环境，然后再启动多个worker。当请求过来时，master会传递给一个worker，然后立即可以接受下一个请求。这样就避免了重复的劳动，效率自然是高。而且当worker不够用时，master可以根据配置预先启动几个worker等着；当然空闲worker太多时，也会停掉一些，这样就提高了性能，也节约了资源。这就是fastcgi的对进程的管理。</p>
+</blockquote>
+<p>那PHP-FPM又是什么呢？是一个实现了Fastcgi的程序，被PHP官方收了。</p>
+<blockquote>
+<p>大家都知道，PHP的解释器是php-cgi。php-cgi只是个CGI程序，他自己本身只能解析请求，返回结果，不会进程管理（皇上，臣妾真的做不到啊！）所以就出现了一些能够调度php-cgi进程的程序，比如说由lighthttpd分离出来的spawn-fcgi。好了PHP-FPM也是这么个东东，在长时间的发展后，逐渐得到了大家的认可（要知道，前几年大家可是抱怨PHP-FPM稳定性太差的），也越来越流行。</p>
+</blockquote>
+<p>好了，最后来回来你的问题。 网上有的说，fastcgi是一个协议，php-fpm实现了这个协议</p>
+<blockquote>
+<p>对。</p>
+</blockquote>
+<p>有的说，php-fpm是fastcgi进程的管理器，用来管理fastcgi进程的</p>
+<blockquote>
+<p>对。php-fpm的管理对象是php-cgi。但不能说php-fpm是fastcgi进程的管理器，因为前面说了fastcgi是个协议，似乎没有这么个进程存在，就算存在php-fpm也管理不了他（至少目前是）。 有的说，php-fpm是php内核的一个补丁</p>
+<p>以前是对的。因为最开始的时候php-fpm没有包含在PHP内核里面，要使用这个功能，需要找到与源码版本相同的php-fpm对内核打补丁，然后再编译。后来PHP内核集成了PHP-FPM之后就方便多了，使用<code>--enalbe-fpm</code>这个编译参数即可。</p>
+</blockquote>
+<p>有的说，修改了php.ini配置文件后，没办法平滑重启，所以就诞生了php-fpm</p>
+<blockquote>
+<p>是的，修改php.ini之后，php-cgi进程的确是没办法平滑重启的。php-fpm对此的处理机制是新的worker用新的配置，已经存在的worker处理完手上的活就可以歇着了，通过这种机制来平滑过度。</p>
+</blockquote>
+<p>还有的说PHP-CGI是PHP自带的FastCGI管理器，那这样的话干吗又弄个php-fpm出</p>
+<blockquote>
+<p>不对。php-cgi只是解释PHP脚本的程序而已。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;fastcgi与php-fpm的关系一直挺迷惑的，今天在segmentfault上看到了不错的解释。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://boiling.top/categories/php/"/>
+    
+    
+      <category term="php-fpm" scheme="http://boiling.top/tags/php-fpm/"/>
+    
+      <category term="fastcgi" scheme="http://boiling.top/tags/fastcgi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何配置nginx同时运行不同版本的php-fpm</title>
+    <link href="http://boiling.top//blog/2016/07/nginx-fpm.html"/>
+    <id>http://boiling.top//blog/2016/07/nginx-fpm.html</id>
+    <published>2016-07-09T00:16:10.000Z</published>
+    <updated>2017-04-09T03:57:03.174Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>在/usr/local/php/etc/php-fpm.conf里找到</p>
+<p>listen = 127.0.0.1:9000</p>
+<p>将端口9000修改为9001</p>
+<p>在相应的nginx配置里也做同样的端口修改</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;在/usr/local/php/etc/php-fpm.conf里找到&lt;/
+    
+    </summary>
+    
+      <category term="nginx" scheme="http://boiling.top/categories/nginx/"/>
+    
+    
+      <category term="php-fpm" scheme="http://boiling.top/tags/php-fpm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>奇葩说5.14后感</title>
+    <link href="http://boiling.top//blog/2016/05/qipashuo.html"/>
+    <id>http://boiling.top//blog/2016/05/qipashuo.html</id>
+    <published>2016-05-15T12:57:48.000Z</published>
+    <updated>2017-04-09T03:54:05.045Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>辩题：痛苦的绝症病人想要放弃自己的生命，我该不该鼓励他撑下去？</p>
+</blockquote>
+<p>“我今天才真正的走了，很高兴和你做一世父子，有缘再聚。”</p>
+<a id="more"></a>
+<p>本来我一个很克制的人，听到马东这句话瞬间泪如泉涌。这期节目我是跟我妈一块看的，这期节目播出的时候距离我姥姥去世正好10年了。</p>
+<p>妈妈是家中小女，上面有三个姐姐两个哥哥。在城市里面老小可能是备受恩宠的一个，可是在农村，这种家庭时刻都要面临生活的压力，然而就是这样姥姥还是让我妈坚持读到了高中，没错，我妈是他们兄妹几个里面学历最高的那个。印象里姥姥对我们家有操不完的心，彬彬已经上初中了，怎么还是这么矮，以后不会不长了吧；这个季度的包菜价格（包菜是我们那里春季的主要经济来源）这么低，估计爱玲她们家又难了。姥姥去世那年我正初三，为了不耽误我准备中考，我妈直到我姥姥要下葬那天才告诉我，姥姥因为癌症，化疗了半年，这半年一直靠输水维持生命，后来死是被饿死的，因为没法进食，血管也已经凝固连葡萄糖都输不进去。姥姥临死之前对我奶奶说:”我走了，以后这都是你的事情了”，当我妈跟我转述这句话的时候，我感觉整个人被什么击中了一样。</p>
+<p>就像高晓松说的那样</p>
+<blockquote>
+<p>你是那颗星星<br>我是你旁边的这颗星<br>我的整个轨迹是被你影响<br>即使有一天这颗星星熄灭了<br>它变成了暗物质<br>它变成了看不见的东西<br>他依然在影响着<br>我的轨迹<br>你的出现永远改变着<br>我的星轨<br>无论你在<br>哪里</p>
+</blockquote>
+<p>姥姥我想你了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;辩题：痛苦的绝症病人想要放弃自己的生命，我该不该鼓励他撑下去？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“我今天才真正的走了，很高兴和你做一世父子，有缘再聚。”&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="life" scheme="http://boiling.top/categories/life/"/>
+    
+    
+      <category term="奇葩说" scheme="http://boiling.top/tags/%E5%A5%87%E8%91%A9%E8%AF%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>thinkphp整合系列之短信验证码、订单通知</title>
+    <link href="http://boiling.top//blog/2016/03/message.html"/>
+    <id>http://boiling.top//blog/2016/03/message.html</id>
+    <published>2016-03-07T06:08:50.000Z</published>
+    <updated>2017-04-09T03:52:31.942Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p> 正好需要用短信功能，看到白神的博客非常详细的写了，mark一下</p>
+</blockquote>
+<a id="more"></a>
+<p>现在这个短信通知泛滥的年代；应用如果没有个短信注册；你都不敢说你是搞开发的；<br>这个验证码搞起来是不难的；但是如果刚接触也是有点不知从哪下手的迷茫；<br>先讲下概念；<br>要想发送验证码；需要至少三项；appid、key、模板id；<br>appid、和key比如较容易理解；各种第三方平台都会提供的；可能叫法不一样；<br>模板id就是指的短信的内容；例如【淘宝】验证码是192612，请您在5分钟内输入；<br>这就是一个模板；我们发短信的时候只能改变192612、和5这两个数字；其他是固定的；<br>因为政策的问题；模板需要申请并审核；一般1个工作日就过了；<br>下面来具体写流程；</p>
+<ol>
+<li><p>找一个靠谱的短信验证码平台；推荐如下使用过的；下面以容联云通讯为例；其他平台一个道理； 容联云通讯：<a href="http://www.yuntongxun.com/" target="_blank" rel="external">http://www.yuntongxun.com/</a></p>
+</li>
+<li><p>注册；登录；认证；都是废话；拿到ACCOUNT SID、AUTH <img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170407151806.png" alt="image"></p>
+</li>
+<li><p>创建一个应用；</p>
+<p> <img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170407151856.png" alt="image"></p>
+</li>
+<li><p>新增一个模板；</p>
+<p> <img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170407151953.png" alt="image"></p>
+</li>
+<li><p>等审核通过；拿到模板ID；好；到此；完成；</p>
+<p> <img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170407151953.png" alt="image"></p>
+</li>
+<li><p>完成？想多了吧；这是刚达到了可以发送验证码的基本条件；接着下载官方的SDK；<br> 标题挂着Thinkphp集成短信验证码的；再不写thinkphp；想必是要被喷成渣！渣都不剩！<br> 所有的源代码都可以在我的开源项目bjyadmin中找到：<a href="https://github.com/baijunyao/thinkphp-bjyadmin" target="_blank" rel="external">https://github.com/baijunyao/thinkphp-bjyadmin</a><br> 以我的开源项目为例；放在/ThinkPHP/Library/Org/Xb/Rest.class.php</p>
+</li>
+<li><p>在公共函数库中增加函数/Application/Common/Common/function.php</p>
+</li>
+</ol>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * 发送 容联云通讯 验证码</div><div class="line"> * <span class="doctag">@param</span>  int $phone 手机号</div><div class="line"> * <span class="doctag">@param</span>  int $code  验证码</div><div class="line"> * <span class="doctag">@return</span> boole      是否发送成功</div><div class="line"> */</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">send_sms_code</span><span class="params">($phone,$code)</span></span>&#123;</div><div class="line">    <span class="comment">//请求地址，格式如下，不需要写https://</span></div><div class="line">    $serverIP=<span class="string">'app.cloopen.com'</span>;</div><div class="line">    <span class="comment">//请求端口</span></div><div class="line">    $serverPort=<span class="string">'8883'</span>;</div><div class="line">    <span class="comment">//REST版本号</span></div><div class="line">    $softVersion=<span class="string">'2013-12-26'</span>;</div><div class="line">    <span class="comment">//主帐号</span></div><div class="line">    $accountSid=C(<span class="string">'RONGLIAN_ACCOUNT_SID'</span>);</div><div class="line">    <span class="comment">//主帐号Token</span></div><div class="line">    $accountToken=C(<span class="string">'RONGLIAN_ACCOUNT_TOKEN'</span>);</div><div class="line">    <span class="comment">//应用Id</span></div><div class="line">    $appId=C(<span class="string">'RONGLIAN_APPID'</span>);</div><div class="line"></div><div class="line">    $rest = <span class="keyword">new</span> \Org\Xb\Rest($serverIP,$serverPort,$softVersion);</div><div class="line">    $rest-&gt;setAccount($accountSid,$accountToken);</div><div class="line">    $rest-&gt;setAppId($appId);</div><div class="line">    <span class="comment">// 发送模板短信</span></div><div class="line">    $result=$rest-&gt;sendTemplateSMS($phone,<span class="keyword">array</span>($code,<span class="number">5</span>),<span class="number">59939</span>);</div><div class="line">    <span class="keyword">if</span>($result==<span class="keyword">NULL</span>) &#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">false</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">if</span>($result-&gt;statusCode!=<span class="number">0</span>) &#123;</div><div class="line">        <span class="keyword">return</span>  <span class="keyword">false</span>;</div><div class="line">    &#125;<span class="keyword">else</span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ol>
+<li>把ACCOUNT SID、AUTH TOKEN、模板id 填到配置项/Application/Common/Conf/config.php 中</li>
+</ol>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">'RONGLIAN_ACCOUNT_SID'</span>   =&gt; <span class="string">''</span>, <span class="comment">//容联云通讯 主账号 accountSid</span></div><div class="line"><span class="string">'RONGLIAN_ACCOUNT_TOKEN'</span> =&gt; <span class="string">''</span>, <span class="comment">//容联云通讯 主账号token accountToken</span></div><div class="line"><span class="string">'RONGLIAN_APPID'</span>         =&gt; <span class="string">''</span>, <span class="comment">//容联云通讯 应用Id appid</span></div><div class="line"><span class="string">'RONGLIAN_TEMPLATE_ID'</span>   =&gt; <span class="string">''</span>, <span class="comment">//容联云通讯 模板Id</span></div></pre></td></tr></table></figure>
+<ol>
+<li>调用函数：send_sms_code(‘手机号’,’验证码’);即可</li>
+</ol>
+<p>只需要在配置项填空，就可以发短信了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt; 正好需要用短信功能，看到白神的博客非常详细的写了，mark一下&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://boiling.top/categories/php/"/>
+    
+    
+      <category term="tp" scheme="http://boiling.top/tags/tp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用phpExcel实现Excel数据的导入导出</title>
+    <link href="http://boiling.top//blog/2015/11/php-excel.html"/>
+    <id>http://boiling.top//blog/2015/11/php-excel.html</id>
+    <published>2015-11-07T12:41:38.000Z</published>
+    <updated>2017-04-09T03:50:11.499Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>本人的这段例程是使用在Thinkphp的开发框架上，要是使用在其他框架也是同样的方法，很多人可能不能正确的实现Excel的导入导出，问题基本上都是phpExcel的核心类引用路径出错，如果有问题大家务必要对路劲是否引用正确进行测试</p>
+</blockquote>
+<a id="more"></a>
+<p><strong>（一）导入Excel</strong></p>
+<p>第一，在前台html页面进行上传文件：如：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">action</span>=<span class="string">"php文件"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></div><div class="line">         <span class="tag">&lt;<span class="name">h3</span>&gt;</span>导入Excel表：<span class="tag">&lt;/<span class="name">h3</span>&gt;</span><span class="tag">&lt;<span class="name">input</span>  <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">name</span>=<span class="string">"file_stu"</span> /&gt;</span></div><div class="line">           <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>  <span class="attr">value</span>=<span class="string">"导入"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>第二，在对应的php文件进行文件的处理</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (! <span class="keyword">empty</span> ( $_FILES [<span class="string">'file_stu'</span>] [<span class="string">'name'</span>] ))</div><div class="line"> &#123;</div><div class="line">    $tmp_file = $_FILES [<span class="string">'file_stu'</span>] [<span class="string">'tmp_name'</span>];</div><div class="line">    $file_types = explode ( <span class="string">"."</span>, $_FILES [<span class="string">'file_stu'</span>] [<span class="string">'name'</span>] );</div><div class="line">    $file_type = $file_types [count ( $file_types ) - <span class="number">1</span>];</div><div class="line">     <span class="comment">/*判别是不是.xls文件，判别是不是excel文件*/</span></div><div class="line">     <span class="keyword">if</span> (strtolower ( $file_type ) != <span class="string">"xls"</span>)              </div><div class="line">    &#123;</div><div class="line">          <span class="keyword">$this</span>-&gt;error ( <span class="string">'不是Excel文件，重新上传'</span> );</div><div class="line">     &#125;</div><div class="line">    <span class="comment">/*设置上传路径*/</span></div><div class="line">     $savePath = SITE_PATH . <span class="string">'/public/upfile/Excel/'</span>;</div><div class="line">    <span class="comment">/*以时间来命名上传的文件*/</span></div><div class="line">     $str = date ( <span class="string">'Ymdhis'</span> ); </div><div class="line">     $file_name = $str . <span class="string">"."</span> . $file_type;</div><div class="line">     <span class="comment">/*是否上传成功*/</span></div><div class="line">     <span class="keyword">if</span> (! copy ( $tmp_file, $savePath . $file_name )) </div><div class="line">      &#123;</div><div class="line">          <span class="keyword">$this</span>-&gt;error ( <span class="string">'上传失败'</span> );</div><div class="line">      &#125;</div><div class="line">    <span class="comment">/*</span></div><div class="line">       *对上传的Excel数据进行处理生成编程数据,这个函数会在下面第三步的ExcelToArray类中</div><div class="line">      注意：这里调用执行了第三步类里面的read函数，把Excel转化为数组并返回给$res,再进行数据库写入</div><div class="line">    */</div><div class="line">  $res = Service ( <span class="string">'ExcelToArray'</span> )-&gt;read ( $savePath . $file_name );</div><div class="line">   <span class="comment">/*</span></div><div class="line">        重要代码 解决Thinkphp M、D方法不能调用的问题  </div><div class="line">        如果在thinkphp中遇到M 、D方法失效时就加入下面一句代码</div><div class="line">    */</div><div class="line">   <span class="comment">//spl_autoload_register ( array ('Think', 'autoload' ) );</span></div><div class="line">   <span class="comment">/*对生成的数组进行数据库的写入*/</span></div><div class="line">   <span class="keyword">foreach</span> ( $res <span class="keyword">as</span> $k =&gt; $v ) </div><div class="line">   &#123;</div><div class="line">       <span class="keyword">if</span> ($k != <span class="number">0</span>) </div><div class="line">      &#123;</div><div class="line">           $data [<span class="string">'uid'</span>] = $v [<span class="number">0</span>];</div><div class="line">           $data [<span class="string">'password'</span>] = sha1 ( <span class="string">'111111'</span> );</div><div class="line">           $data [<span class="string">'email'</span>] = $v [<span class="number">1</span>];</div><div class="line">           $data [<span class="string">'uname'</span>] = $v [<span class="number">3</span>];</div><div class="line">          $data [<span class="string">'institute'</span>] = $v [<span class="number">4</span>];</div><div class="line">         $result = M ( <span class="string">'user'</span> )-&gt;add ( $data );</div><div class="line">         <span class="keyword">if</span> (! $result) </div><div class="line">         &#123;</div><div class="line">              <span class="keyword">$this</span>-&gt;error ( <span class="string">'导入数据库失败'</span> );</div><div class="line">          &#125;</div><div class="line">      &#125;</div><div class="line">   &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>第三：ExcelToArrary类,用来引用phpExcel并处理Excel数据的</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">ExcelToArrary</span> <span class="keyword">extends</span> <span class="title">Service</span></span>&#123;</div><div class="line"> <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">()</span> </span>&#123;</div><div class="line">     <span class="comment">/*导入phpExcel核心类    注意 ：你的路径跟我不一样就不能直接复制*/</span></div><div class="line">     <span class="keyword">include_once</span>(<span class="string">'./Excel/PHPExcel.php'</span>);</div><div class="line"> &#125;</div><div class="line"><span class="comment">/**</span></div><div class="line">* 读取excel $filename 路径文件名 $encode 返回数据的编码 默认为utf8</div><div class="line">*以下基本都不要修改</div><div class="line">*/</div><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">read</span><span class="params">($filename,$encode=<span class="string">'utf-8'</span>)</span></span>&#123;</div><div class="line">          $objReader = PHPExcel_IOFactory::createReader(<span class="string">'Excel5'</span>);</div><div class="line">          $objReader-&gt;setReadDataOnly(<span class="keyword">true</span>);</div><div class="line">          $objPHPExcel = $objReader-&gt;load($filename);</div><div class="line">          $objWorksheet = $objPHPExcel-&gt;getActiveSheet();</div><div class="line">　　　 $highestRow = $objWorksheet-&gt;getHighestRow(); </div><div class="line">　　　 $highestColumn = $objWorksheet-&gt;getHighestColumn(); </div><div class="line">　　    $highestColumnIndex = PHPExcel_Cell::columnIndexFromString($highestColumn); </div><div class="line"> 　　   $excelData = <span class="keyword">array</span>(); </div><div class="line"> 　　　<span class="keyword">for</span> ($row = <span class="number">1</span>; $row &lt;= $highestRow; $row++) &#123; </div><div class="line">    　　  <span class="keyword">for</span> ($col = <span class="number">0</span>; $col &lt; $highestColumnIndex; $col++) &#123; </div><div class="line">                 $excelData[$row][] =(string)$objWorksheet-&gt;getCellByColumnAndRow($col, $row)-&gt;getValue();</div><div class="line">           &#125; </div><div class="line">         &#125; </div><div class="line">        <span class="keyword">return</span> $excelData;</div><div class="line">    &#125;    </div><div class="line"> &#125;</div></pre></td></tr></table></figure>
+<p>第四，以上就是导入的全部内容</p>
+<p><strong>（二）Excel的导出（相对于导入简单多了）</strong></p>
+<p>第一，先查出数据库里面要生成Excel的数据，如：</p>
+<p>$data= M(‘User’)-&gt;findAll();   //查出数据<br>$name=’Excelfile’;    //生成的Excel文件文件名<br>$res=service(‘ExcelToArrary’)-&gt;push($data,$name);</p>
+<p>第二，ExcelToArrary类,用来引用phpExcel并处理数据的    </p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">ExcelToArrary</span> <span class="keyword">extends</span> <span class="title">Service</span></span>&#123;</div><div class="line">       <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">()</span> </span>&#123;</div><div class="line">              <span class="comment">/*导入phpExcel核心类    注意 ：你的路径跟我不一样就不能直接复制*/</span></div><div class="line">               <span class="keyword">include_once</span>(<span class="string">'./Excel/PHPExcel.php'</span>);</div><div class="line">       &#125;</div><div class="line">     <span class="comment">/* 导出excel函数*/</span></div><div class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">push</span><span class="params">($data,$name=<span class="string">'Excel'</span>)</span></span>&#123;</div><div class="line">          error_reporting(E_ALL);</div><div class="line">          date_default_timezone_set(<span class="string">'Europe/London'</span>);</div><div class="line">         $objPHPExcel = <span class="keyword">new</span> PHPExcel();</div><div class="line">        <span class="comment">/*以下是一些设置 ，什么作者  标题啊之类的*/</span></div><div class="line">         $objPHPExcel-&gt;getProperties()-&gt;setCreator(<span class="string">"转弯的阳光"</span>)</div><div class="line">                               -&gt;setLastModifiedBy(<span class="string">"转弯的阳光"</span>)</div><div class="line">                               -&gt;setTitle(<span class="string">"数据EXCEL导出"</span>)</div><div class="line">                               -&gt;setSubject(<span class="string">"数据EXCEL导出"</span>)</div><div class="line">                               -&gt;setDescription(<span class="string">"备份数据"</span>)</div><div class="line">                               -&gt;setKeywords(<span class="string">"excel"</span>)</div><div class="line">                              -&gt;setCategory(<span class="string">"result file"</span>);</div><div class="line">         <span class="comment">/*以下就是对处理Excel里的数据， 横着取数据，主要是这一步，其他基本都不要改*/</span></div><div class="line">        <span class="keyword">foreach</span>($data <span class="keyword">as</span> $k =&gt; $v)&#123;</div><div class="line">             $num=$k+<span class="number">1</span>;</div><div class="line">             $objPHPExcel-&gt;setActiveSheetIndex(<span class="number">0</span>)</div><div class="line">                         <span class="comment">//Excel的第A列，uid是你查出数组的键值，下面以此类推</span></div><div class="line">                          -&gt;setCellValue(<span class="string">'A'</span>.$num, $v[<span class="string">'uid'</span>])    </div><div class="line">                          -&gt;setCellValue(<span class="string">'B'</span>.$num, $v[<span class="string">'email'</span>])</div><div class="line">                          -&gt;setCellValue(<span class="string">'C'</span>.$num, $v[<span class="string">'password'</span>])</div><div class="line">            &#125;</div><div class="line">            $objPHPExcel-&gt;getActiveSheet()-&gt;setTitle(<span class="string">'User'</span>);</div><div class="line">            $objPHPExcel-&gt;setActiveSheetIndex(<span class="number">0</span>);</div><div class="line">             header(<span class="string">'Content-Type: application/vnd.ms-excel'</span>);</div><div class="line">             header(<span class="string">'Content-Disposition: attachment;filename="'</span>.$name.<span class="string">'.xls"'</span>);</div><div class="line">             header(<span class="string">'Cache-Control: max-age=0'</span>);</div><div class="line">             $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, <span class="string">'Excel5'</span>);</div><div class="line">             $objWriter-&gt;save(<span class="string">'php://output'</span>);</div><div class="line">             <span class="keyword">exit</span>;</div><div class="line">      &#125;</div></pre></td></tr></table></figure>
+<p>第三，以上就是导出的全部内容</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本人的这段例程是使用在Thinkphp的开发框架上，要是使用在其他框架也是同样的方法，很多人可能不能正确的实现Excel的导入导出，问题基本上都是phpExcel的核心类引用路径出错，如果有问题大家务必要对路劲是否引用正确进行测试&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://boiling.top/categories/php/"/>
+    
+    
+      <category term="tp" scheme="http://boiling.top/tags/tp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>接口响应时间测试</title>
+    <link href="http://boiling.top//blog/2015/10/interface.html"/>
+    <id>http://boiling.top//blog/2015/10/interface.html</id>
+    <published>2015-10-11T02:16:30.000Z</published>
+    <updated>2017-04-09T03:50:58.507Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>写了两周的接口，快写吐了。。。发现tp中有个G函数可以用来测试接口响应时间，手册果然是个宝藏</p>
+</blockquote>
+<p>接口脚本响应时间，很大程度上反映了，接口返回数据给用户的时间。<br>可以使用TP框架里的G方法进行时间和内存占用的检测。</p>
+<a id="more"></a>
+<p><img src="http://ojyf2o7o5.bkt.clouddn.com/%E6%97%A0%E6%A0%87%E9%A2%98.png" alt="image"><br>代码实现<br><img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170407163210.png" alt="image"></p>
+<p><img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170407163407.png" alt="image"></p>
+<p><img src="http://ojyf2o7o5.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20170407163532.png" alt="image"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;写了两周的接口，快写吐了。。。发现tp中有个G函数可以用来测试接口响应时间，手册果然是个宝藏&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接口脚本响应时间，很大程度上反映了，接口返回数据给用户的时间。&lt;br&gt;可以使用TP框架里的G方法进行时间和内存占用的检测。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://boiling.top/categories/php/"/>
+    
+    
+      <category term="接口" scheme="http://boiling.top/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github搭建个人博客心得</title>
+    <link href="http://boiling.top//blog/2015/08/hexo.html"/>
+    <id>http://boiling.top//blog/2015/08/hexo.html</id>
+    <published>2015-08-18T13:59:32.000Z</published>
+    <updated>2017-04-09T03:53:34.700Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p>花了一天时间搭好hexo博客，记录一下搭建流程</p>
+</blockquote>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><ul>
+<li><p>安装</p>
+<a id="more"></a>
+</li>
+</ul>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">mkdir</span> hexo  #创建一个文件夹</div><div class="line"><span class="keyword">cd</span> hexo</div><div class="line">npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></div><div class="line">npm install hexo --<span class="keyword">save</span></div></pre></td></tr></table></figure>
+<ul>
+<li>部署Hexo：在Git shell 中输入</li>
+</ul>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hexo init</span></div></pre></td></tr></table></figure>
+<ul>
+<li>安装Hexo 插件：自动生成sitemap,Rss，部署到git等，建议安装</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">index</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">archive</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">category</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-tag <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-heroku <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-rsync <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-openshift <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-marked@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-stylus@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-feed@<span class="number">1</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-sitemap@<span class="number">1</span> <span class="comment">--save</span></div></pre></td></tr></table></figure>
+<h2 id="Hexo常用的几个命令"><a href="#Hexo常用的几个命令" class="headerlink" title="Hexo常用的几个命令"></a>Hexo常用的几个命令</h2><h3 id="创建新博文"><a href="#创建新博文" class="headerlink" title="创建新博文"></a>创建新博文</h3><p>执行new命令，生成指定名称的文章至hexo\source_posts\postName.md。</p>
+<figure class="highlight haxe"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo <span class="keyword">new</span> <span class="type"></span>[layout] <span class="string">"postName"</span> <span class="meta">#新建文章</span></div></pre></td></tr></table></figure>
+<p>其中layout是可选参数，默认值为post。有哪些layout呢，请到scaffolds目录下查看，这些文件名称就是layout名称。当然你可以添加自己的layout，方法就是添加一个文件即可，同时你也可以编辑现有的layout，比如post的layout默认是hexo\scaffolds\post.md</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">title:</span> &#123; &#123; title &#125; &#125;</div><div class="line"><span class="attr">date:</span> &#123; &#123; date &#125; &#125;</div><div class="line"><span class="attr">tags:</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>请注意，大括号与大括号之间我多加了个空格，否则会被转义，不能正常显示。</p>
+</blockquote>
+<p>我想添加categories，以免每次手工输入，只需要修改这个文件添加一行，如下：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attr">title:</span> &#123; &#123; title &#125; &#125;</div><div class="line"><span class="attr">date:</span> &#123; &#123; date &#125; &#125;</div><div class="line"><span class="attr">categories:</span> </div><div class="line"><span class="attr">tags:</span> </div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
+<p>更多信息参考: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h3><figure class="highlight axapta"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo <span class="keyword">server</span></div></pre></td></tr></table></figure>
+<p>参考: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="生成静态站点文件"><a href="#生成静态站点文件" class="headerlink" title="生成静态站点文件"></a>生成静态站点文件</h3><figure class="highlight verilog"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo <span class="keyword">generate</span></div></pre></td></tr></table></figure>
+<p>参考: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="部署到Git"><a href="#部署到Git" class="headerlink" title="部署到Git"></a>部署到Git</h3><p>部署到Github前需要配置_config.yml文件</p>
+<p>添加如下内容：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">deploy</span>:</div><div class="line">	<span class="attribute">type</span>: git</div><div class="line">	<span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:wangche/wangche.github.io.git</div><div class="line">	<span class="attribute">branch</span>: master</div></pre></td></tr></table></figure>
+<p>然后输入：</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>hexo deploy</div></pre></td></tr></table></figure>
+<p>参考: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="fancybox"><a href="#fancybox" class="headerlink" title="fancybox"></a>fancybox</h2><p>可能有人对这个Reading页面中图片的fancybox效果感兴趣，这个是怎么做的呢。<br>很简单，只需要在你的文章*.md文件的头上添加photos项即可，然后一行行添加你要展示的照片:</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attr">title:</span> Hexo建立个人博客</div><div class="line"><span class="attr">photos:</span></div><div class="line"><span class="bullet">-</span> </div><div class="line"><span class="bullet">-</span> </div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
+<h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>本博客采用了iissnan的Next主题，他的博客有详细的安装教程，这里贴下链接<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next</a>，有需要的朋友直接参考他写的教程，一气呵成~</p>
+<h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="keyword">cd</span> hexo目录</div><div class="line">$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/iissnan/hexo-theme-<span class="keyword">next</span> themes/<span class="keyword">next</span></div></pre></td></tr></table></figure>
+<h3 id="应用Hexo主题"><a href="#应用Hexo主题" class="headerlink" title="应用Hexo主题"></a>应用Hexo主题</h3><p>在hexo目录下找到_config.yml配置文件，找到 theme 字段，并将其值更改为 next，如下所示：</p>
+<figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure>
+<h3 id="设置RSS"><a href="#设置RSS" class="headerlink" title="设置RSS"></a>设置RSS</h3><p>在上面的步骤中已经安装了Rss插件，只要要在themes\next_config.yml配置文件中添加如下一行即可：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rss：</div></pre></td></tr></table></figure>
+<h3 id="添加标签tags页面"><a href="#添加标签tags页面" class="headerlink" title="添加标签tags页面"></a>添加标签tags页面</h3><p>定位到 Hexo 站点目录下，使用 hexo new page 新建一个页面，命名为 tags，布局格式为page：</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="keyword">cd</span> hexo目录</div><div class="line">$ hexo <span class="keyword">new</span> page <span class="keyword">tags</span></div></pre></td></tr></table></figure>
+<p>内容如下所示，如果要关闭tags页面的评论可以设置comments为false：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attr">title:</span> 标签</div><div class="line"><span class="attr">date:</span> <span class="number">2014</span><span class="bullet">-12</span><span class="bullet">-22</span> <span class="number">12</span>:<span class="number">39</span>:<span class="number">04</span></div><div class="line"><span class="attr">type:</span> <span class="string">"tags"</span></div><div class="line"><span class="attr">comments:</span> <span class="literal">false</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
+<p>这样以后tags页面在每次执行hexo generate后自动更新。</p>
+<h3 id="添加分类页面"><a href="#添加分类页面" class="headerlink" title="添加分类页面"></a>添加分类页面</h3><p>和上面的一样，在hexo目录下执行下面命令：</p>
+<figure class="highlight haxe"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo <span class="keyword">new</span> <span class="type">page</span> categories</div></pre></td></tr></table></figure>
+<p>内容为：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attr">title:</span> 分类</div><div class="line"><span class="attr">date:</span> <span class="number">2014</span><span class="bullet">-12</span><span class="bullet">-22</span> <span class="number">12</span>:<span class="number">39</span>:<span class="number">04</span></div><div class="line"><span class="attr">type:</span> <span class="string">"categories"</span></div><div class="line"><span class="attr">comments:</span> <span class="literal">false</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure>
+<h3 id="添加404页面"><a href="#添加404页面" class="headerlink" title="添加404页面"></a>添加404页面</h3><p>新建一个404.html文件，放到themes\next\source目录下，内容你自己定。</p>
+<h3 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h3><p>Hexo下很简单，只需要按照下面的格式：<br><a href="http://www.ezlippi.com/images/highlight.png" target="_blank" rel="external"><img src="http://www.ezlippi.com/images/highlight.png" alt="img"></a><br>效果如下：</p>
+<figure class="highlight abnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">System.out.println(<span class="string">"hello hexo!"</span>)<span class="comment">;</span></div></pre></td></tr></table></figure>
+<p>你也可以更改代码高亮的主题，一共有五种，可选的值有 normal，night， night blue， night bright， night eighties，修改themes\next_config.yml文件，如下所示：</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">highlight_theme:</span> normal</div></pre></td></tr></table></figure>
+<h2 id="第三方服务"><a href="#第三方服务" class="headerlink" title="第三方服务"></a>第三方服务</h2><h3 id="多说评论"><a href="#多说评论" class="headerlink" title="多说评论"></a>多说评论</h3><p>登录多说官网，登录后点我要安装，然后填写站点相关信息，最主要的是duoshuo_shortname这个字段，设置后之后修改themes\next_config.yml文件，把duoshuo_shortname改成你的，如下所示：</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">duoshuo_shortname:</span> ezlippi</div></pre></td></tr></table></figure>
+<h3 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h3><p>登录百度统计，转到获取代码截面，找到百度统计脚本id，然后把themes\next_config.yml文件下的baidu_analytics字段改成你的id，如下所示：</p>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">baidu_analytics: </span><span class="number">340874</span>ba9357cbe81570aa4ac1185941</div></pre></td></tr></table></figure>
+<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h3><p>next主题集成了swiftype搜索，你需要到swiftype配置一个搜索引擎， 而后编辑 站点配置文件， 新增 swiftype_key 字段，值为你的 swiftype 搜索引擎的 key。 详细的配置请参考：<a href="http://theme-next.iissnan.com/third-party-services.html#swfitype" target="_blank" rel="external">swfitype教程</a></p>
+<h3 id="其他设置"><a href="#其他设置" class="headerlink" title="其他设置"></a>其他设置</h3><p>其他设置比如侧边栏、友情链接、菜单栏等请参考<a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">next主题配置教程</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;花了一天时间搭好hexo博客，记录一下搭建流程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;安装&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="life" scheme="http://boiling.top/categories/life/"/>
+    
+    
+      <category term="hexo" scheme="http://boiling.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://boiling.top//blog/2015/08/hello-world.html"/>
+    <id>http://boiling.top//blog/2015/08/hello-world.html</id>
+    <published>2015-08-17T00:29:27.000Z</published>
+    <updated>2017-04-07T11:55:18.037Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>博客从简书搬过来啦，欢迎您的到来。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;博客从简书搬过来啦，欢迎您的到来。&lt;/p&gt;
 
     
     </summary>
